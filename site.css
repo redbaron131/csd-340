@@ -1,0 +1,28 @@
+/* Set margins for the container */
+#container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Define styles for heading tags */
+h1, h2, h3, h4 {
+  background-color: #0033A0;
+  color: #FFFFFF;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+/* Define styles for anchor tags */
+a {
+  color: #0067C5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00274C;
+}
+
+a:visited {
+  color: #8E8E8E;
+}
