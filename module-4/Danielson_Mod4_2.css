@@ -1,0 +1,53 @@
+/* Center the h1 title */
+h1 {
+  text-align: center;
+}
+body {
+  background-color: lightgray;
+}
+
+/* Define grid container */
+#image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Set the column width and allow them to wrap */
+  grid-gap: 0px; /* Set the gap between grid items */
+  justify-content: center; /* Center the grid horizontally */
+  margin-top: 10%;
+}
+
+/* Define grid item */
+.image-container {
+  border: 2px solid black; /* add solid black border */
+  box-sizing: border-box; /* include border width in element width calculation */
+  padding: 10px; /* add padding to create margin inside the container */
+  text-align: center;
+}
+
+.image-container img {
+  width: 35%;
+  height: auto;
+}
+
+.image-container h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1); /* Optional color */
+}
+
+.image-container figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+  color: rgba(0, 0, 0, 1); /* Optional color */
+}
+
+/* Float and margin the bottom div */
+.bottom {
+  float: right;
+  margin-bottom: 20px;
+}
+
+#last-div {
+  margin-top: 60px;
+  text-align: right;
+}
