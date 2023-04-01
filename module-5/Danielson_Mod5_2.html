@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="CSD 340 Development with HTML and CSS">
+	<meta name="author" content="Andrew Danielson">
+	<meta name="keywords" content="HTML, CSS, development, web design">
+
+	<link rel="stylesheet" type="text/css" href="Danielson_Mod5_2.css">	
+
+	<title>Heidi's bioSite</title>
+<style>
+		body {
+			background-color: #FCE6F2;
+			font-family: Arial, sans-serif;
+			color: #3F3F3F;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #F4C2C2;
+			height: 80px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 30px;
+		}
+
+		.logo {
+			font-size: 30px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #3F3F3F;
+		}
+
+		nav {
+			display: flex;
+			align-items: center;
+		}
+
+		nav a {
+			color: #3F3F3F;
+			text-decoration: none;
+			font-size: 18px;
+			margin-left: 30px;
+			font-weight: bold;
+			transition: color 0.3s ease-in-out;
+		}
+
+		nav a:hover {
+			color: #8B3A62;
+		}
+
+		.banner {
+			background-color: #8B3A62;
+			height: 500px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			flex-direction: column;
+		}
+
+		.banner h1 {
+			font-size: 60px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #F4C2C2;
+			margin-top: 0;
+		}
+
+		.banner p {
+			font-size: 24px;
+			color: #F4C2C2;
+			margin-bottom: 0;
+		}
+
+		.about {
+			background-color: #F4C2C2;
+			padding: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.about h2 {
+			font-size: 36px;
+			color: #3F3F3F;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+
+		.about p {
+			font-size: 24px;
+			color: #3F3F3F;
+			text-align: center;
+			line-height: 1.5;
+			margin-bottom: 0;
+		}
+
+		.hobbies {
+  			background-color: #f6d9e6;
+			padding: 50px;
+  			margin: 0;
+		}
+
+		.hobbies h2 {
+			font-size: 36px;
+			color: #773d5a;
+			margin-bottom: 20px;
+		}
+
+		.hobbies li {
+			font-size: 24px;
+			color: #773d5a;
+			margin-bottom: 10px;
+			list-style: none;
+			background-color: #f0bad2;
+			padding: 10px;
+			border-radius: 10px;
+		}
+</style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Danielson_Mod5_2-about.html">About</a></li>
+          <li><a href="Danielson_Mod5_2-hobbies.html">Hobbies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="landing">
+        <h1>Heidi's Story</h1>
+        <p>Welcome to the website about my amazing wife, Heidi!</p>
+      </section>
+      <section id="about">
+        <h2>About Heidi</h2>
+        <p>Insert information about Heidi here.</p>
+	  <a href="Danielson_Mod5_2-about.html">Learn More</a>
+      </section>
+      <section id="hobbies">
+        <h2>Heidi's Hobbies</h2>
+        <p>Insert information about Heidi's hobbies here.</p>
+        <a href="Danielson_Mod5_2-hobbies.html">Hobbies</a>
+      </section>
+    </main>
+<div id="last-div">
+      		<a href="../index.html">Back to Landing Page</a>
+		</div>
+    <footer>
+      <p>&copy; 2023 Andrew Danielson</p>
+    </footer>
+  </body>
+</html>
