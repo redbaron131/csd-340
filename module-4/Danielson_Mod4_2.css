@@ -24,7 +24,7 @@ body {
 }
 
 .image-container img {
-  width: 35%;
+  width: 100%;
   height: auto;
 }
 
@@ -34,6 +34,8 @@ body {
   text-align: center;
   color: rgba(0, 0, 0, 1); /* Optional color */
 }
+
+
 
 .image-container figcaption {
   font-style: italic;
