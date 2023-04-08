@@ -62,26 +62,36 @@ h1 {
   width: 100%;
 }
 
-/* movies table */
+/* Set font and background for card-title */
+.card-title {
+  font-family: "Boise State Blue", sans-serif;
+  color: #0033A0;
+  background-color: #fff;
+}
+
+/* Set font and background for Movie Name and Two Characters */
+th {
+  color: #fff;
+  background-color: #0033A0;
+}
+
+/* Set table border and margin */
 #movies {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 30px;
 }
 
+/* Set padding and alignment for movies th */
 #movies th {
-  background-color: #0033A0;
-  color: white;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  border: 15px solid #D64309;
 }
 
+/* Set border and padding for movies td */
 #movies td {
-  border: 15px solid #D64309;
-  background-color: #f2f2f2;
-  color: #444;
+  border: 1px solid #ddd;
   padding: 8px;
 }
 
