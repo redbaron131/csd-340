@@ -33,7 +33,7 @@ h1 {
 
 /* container div */
 #container {
-  margin: 2% 5% 100px 5%; /* shorthand */
+  margin: 2% 5% 5% 100px; /* shorthand */
   padding: 10px;
 }
 
@@ -50,7 +50,7 @@ h1 {
 
 /* card-title */
 .card-title {
-  text-align: left;
+  text-align: center;
   font-size: 2em;
   color: #0033A0;
   font-weight: 400;
@@ -65,20 +65,23 @@ h1 {
 /* movies table */
 #movies {
   border-collapse: collapse;
-  border-spacing: 0; /* added */
   width: 100%;
   margin-bottom: 30px;
 }
 
 #movies th {
+  background-color: #0033A0;
+  color: white;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border: 15px solid #D64309;
 }
 
 #movies td {
-  border: 15px solid #ddd;
+  border: 15px solid #D64309;
+  background-color: #f2f2f2;
+  color: #444;
   padding: 8px;
 }
 
@@ -87,14 +90,14 @@ footer {
   background-color: #0033A0;
   position: fixed; /* modified */
   bottom: 0;
-  left: 0; /* added */
+  left: 0; 
   width: 100%;
 }
 
 footer p {
   color: white;
   font-weight: 400;
-  float: right;
+  float: left;
   padding-right: 10px;
   font-style: italic;
 }
