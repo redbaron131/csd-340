@@ -73,7 +73,15 @@ h1 {
 th {
   color: #fff;
   background-color: #0033A0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
 }
+/* Set border and padding for movies td */
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;}
 
 /* Set table border and margin */
 #movies {
@@ -82,18 +90,6 @@ th {
   margin-bottom: 30px;
 }
 
-/* Set padding and alignment for movies th */
-#movies th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-}
-
-/* Set border and padding for movies td */
-#movies td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
 
 /* footer element */
 footer {
