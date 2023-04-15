@@ -58,7 +58,7 @@ h1 {
 
 /* card-content */
 .card-content {
-  padding: 2px 16px;
+  padding: 16px 16px;
   width: 100%;
 }
 
@@ -69,22 +69,29 @@ h1 {
   background-color: #fff;
 }
 
-/* Set font and background for Movie Name and Two Characters */
+#movies {
+  border-collapse: collapse;
+  width: 90%; /* changed to 90% */
+  margin-bottom: 30px;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 10%; /* add this */
+}
+
 th {
   color: #fff;
   background-color: #0033A0;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
+  width: 10%; /* add this */
 }
-/* Set border and padding for movies td */
-
-td {
-  border: 1px solid #ddd;
-  padding: 8px;}
 
 /* Set table border and margin */
-#movies {
+#card-content {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 30px;
