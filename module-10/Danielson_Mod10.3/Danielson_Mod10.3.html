@@ -1,0 +1,31 @@
+<!-- Andrew Danielson : Assignment 10.3 -->
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="Mod_10.3.css">
+    <script type="text/javascript" src="mod_10.3.js"></script>
+  </head>
+
+  <body>
+<h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <br>
+    <div>
+      <img border="0" name="ammo" src="ammo_02.jpg" alt="Ammo" onclick="shakeAndChange(event, 'ammo', 'ammo_01.jpg', 'ammo_02.jpg');">
+    </div>
+    <br>
+    <div>
+      <img border="0" name="toyStory" src="toyStory_02.jpg" alt="ToyStory" onclick="shakeAndChange(event, 'toyStory', 'toyStory_01.jpg', 'toyStory_02.jpg');">
+    </div>
+    <br>
+    <div onmouseover="this.style.color='red';"
+         onmouseout="this.style.color='black';">
+      Click on the images for a short animation and to change the image.
+      <br>
+      Right-click and select View Source for more details.
+    </div>
+
+    <script type="text/javascript" src="mod_10.3.js"></script>
+  </body>
+</html>

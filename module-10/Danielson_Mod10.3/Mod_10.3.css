@@ -1,0 +1,40 @@
+body {
+  padding: 10px 20px;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(193, 245, 133, 0),
+                rgba(91, 251, 77, 0.903));
+}
+
+img {
+  height: auto;
+  width: 25%;
+  margin: auto;
+  cursor: pointer;
+}
+
+img.shake {
+  animation: Shake 0.5s linear 3;
+}
+
+/*Using keyframes for shaking an image*/
+@keyframes Shake {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  25% {
+    transform: rotate(-6deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  75% {
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
