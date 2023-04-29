@@ -1,0 +1,11 @@
+body {
+  padding: 10px 20px;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(193, 245, 133, 0),
+                rgba(91, 251, 77, 0.903));
+}
+
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}

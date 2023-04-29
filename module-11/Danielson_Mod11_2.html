@@ -1,0 +1,30 @@
+<!-- Andrew Danielson : Assignment 11.2 -->
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="Mod_11.2.css">
+	<script src="mod_11.2.js"></script>
+  </head>
+  <body>
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+<br>
+<p>This is an interactive To Do List. Type in the first task of your To Do list and click on the Add button.</p>
+<p>To Remove the last item from the list click the Delete Last Entry button</p>
+<p>To Display and Print a copy of the list click Display and Print List</p>
+<p>To Remove an item from the any location on the list, hover over the item and click on it.</p>
+
+    <label for="input">Enter text:</label>
+    <input type="text" id="input"><br><br>
+    <button id="add-btn">Add</button>
+    <button id="del-btn">Delete Last Entry</button>
+    <button id="display-btn">Display and Print List</button>
+    <div onmouseover="this.style.color='red';"
+         onmouseout="this.style.color='black';">
+      <ol id="list"></ol>
+    </div>
+
+    <script src="mod_11.2.js"></script>
+  </body>
+</html>
